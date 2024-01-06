@@ -1,0 +1,37 @@
+.top{
+    text-align: center;
+}
+
+.buttonSection{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.tasks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    background-color: darkcyan;
+}
+
+.priceTag{
+    display: flex;
+    flex-direction: column;
+    background-color: rebeccapurple;
+}
+
+.service-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.service-box button {
+    height: 2rem;
+}
