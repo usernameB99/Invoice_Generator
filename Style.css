@@ -14,18 +14,6 @@
     justify-content: space-evenly;
 }
 
-.products{
-    display: flex;
-    flex-direction: column;
-    background-color: darkcyan;
-}
-
-.priceTag{
-    display: flex;
-    flex-direction: column;
-    background-color: rebeccapurple;
-}
-
 .service-box{
     display: flex;
     flex-direction: row;
@@ -61,9 +49,9 @@ body{
     background: transparent;
     border: none;
     outline: none;
-    border-radius: 10px;
+    border-radius: 8px;
     border: rgba(0, 0, 0, .2) 1px solid;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 8px rgba(0, 0, 0, .2);
     cursor: pointer;
     font-size: 16px;
     color: black;
@@ -91,6 +79,10 @@ hr{
 .reset{
     display: flex;
     justify-content: center;
+}
+
+.reset button{
+    height: 2rem;
 }
 
 p{
