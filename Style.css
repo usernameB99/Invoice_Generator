@@ -30,8 +30,69 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .service-box button {
     height: 2rem;
+}
+
+.box{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    padding: 30px 25px;
+    margin: 5px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(rgb(23, 118, 207), rgb(252, 252, 78));
+}
+
+.box button{
+    width: 30%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    border: rgba(0, 0, 0, .2) 1px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.result{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.tasks p{
+    font-size: 120%;
+}
+
+hr{
+    color: rgba(0, 0, 0, .3);
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-weight: bold;
 }

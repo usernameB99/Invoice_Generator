@@ -1,9 +1,9 @@
-// const carwashEl = document.getElementById("carwash-el")
-// let carPriceEl = document.getElementById("carwashPrice-el")
-// let mowlawnEl = document.getElementById("mowlawn-el")
-// let mowPriceEl = document.getElementById("mowlawnPrice-el")
-// let pullweedsEl = document.getElementById("pullweeds-el")
-// let weedPriceEl = document.getElementById("pullweedsPrice-el")
+/*  const carwashEl = document.getElementById("carwash-el")
+ let carPriceEl = document.getElementById("carwashPrice-el")
+ let mowlawnEl = document.getElementById("mowlawn-el")
+ let mowPriceEl = document.getElementById("mowlawnPrice-el")
+ let pullweedsEl = document.getElementById("pullweeds-el")
+ let weedPriceEl = document.getElementById("pullweedsPrice-el") */
 
 
 let sumEl = document.getElementById("sum-el")
@@ -19,7 +19,6 @@ const services = [
 const displaySelectedServices = [];
 const allServiceButtons = document.getElementsByClassName('service-btn');
 document.getElementsByClassName('removeButton');
-// console.log(`${services[0].name}: $${services[0].price + 5},-`)
 
 
 // function display(){
